@@ -1,0 +1,118 @@
+body{
+    border: 3px solid blue;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 3px dashed red;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* div{
+    height: 80vh;
+    border: 5px solid purple;
+    display: flex;
+    } */
+#logo{
+    border: 3px dashed blue;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-around;
+    border: 3px solid green;
+    gap: 50px;
+}
+footer{
+    background-color: aquamarine;
+}
+
+section{
+    border: 3px solid #81C08A;
+    display: flex;
+}
+.section0{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+.article0{
+    display: flex;
+    background-color: azure;
+
+}
+.section1{
+    background-color: bisque;
+}
+.article1{
+    background-color: aquamarine;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid salmon;
+    margin:10px;
+    padding: 10px;
+    text-align: justify;
+}
+img{
+    width: 70%;
+    border: 3px solid red;
+    display: block;
+    margin: auto;
+    
+}
+footer{
+    display: flex;
+    border: 3px solid red;
+    justify-content: space-evenly;
+    font-weight: 400;
+}
+img:hover{
+    transform:scale(1.2);
+    transition: 1.7s ease;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 700px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* article{
+    border: 3px solid orange;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: black;
+} */
+
